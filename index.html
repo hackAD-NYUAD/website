@@ -1,94 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>hackAD Website</title>
-</head>
-<body>
-    <section class="past-event-sct" id="past-event-sct">
-        <h1 id="past-event-heading"></h1>
-        <div class="past-event-nav">
-            <img src="images/left-arrow.png" id="left-arrow-btn" alt="">
-            <div class="title-container">
-                <h2 id="year-semester-heading">2018 Spring</h2>
-            </div>
-            <img src="images/right-arrow.png" id="right-arrow-btn" alt="">
-        </div>
-        
-        <div class="past-event-container" id="past-event-container">
-            <div id="events-spring2018">
-                <img src="images/spring2018_1.jpeg" alt="">
-                <img src="images/spring2018_2.jpeg" alt="">
-            </div>
-            <div id="events-fall2018">
-                <img src="images/fall2018_1.png" alt="">
-                <img src="images/fall2018_2.png" alt="">
-                <img src="images/fall2018_3.png" alt="">
-                <img src="images/fall2018_4.jpeg" alt="">
-                <img src="images/fall2018_5.jpeg" alt="">
-            </div>
-            <div id="events-spring2019">
-                <img src="images/spring2019_1.jpeg" alt="">
-                <img src="images/spring2019_2.jpeg" alt="">
-                <img src="images/spring2019_3.jpeg" alt="">
-                <img src="images/spring2019_4.jpeg" alt="">
-            </div>
-            <div id="events-fall2019">
-                <img src="images/fall2019_1.jpeg" alt="">
-                <img src="images/fall2019_2.jpeg" alt="">
-            </div>
-            <div id="events-spring2020">
-                <img src="images/spring2020_1.jpg" alt="">
-                <img src="images/spring2020_2.png" alt="">
-            </div>
-            <div id="events-fall2020">
-                <img src="images/fall2020_1.jpg" alt="">
-                <img src="images/fall2020_2.jpg" alt="">
-                <img src="images/fall2020_3.png" alt="">
-                <img src="images/fall2020_4.jpeg" alt="">
-            </div>
-            <div id="events-spring2021">
-                <img src="images/spring2021_1.jpg" alt="">
-                <img src="images/spring2021_2.jpg" alt="">
-                <img src="images/spring2021_3.png" alt="">
-                <img src="images/spring2021_4.jpeg" alt="">
-                <img src="images/spring2021_5.jpeg" alt="">
-                <img src="images/spring2021_6.jpeg" alt="">
-            </div>
-            <div id="events-fall2021">
-                <img src="images/fall2021_1.png" alt="">
-                <img src="images/fall2021_2.jpeg" alt="">
-                <img src="images/fall2021_3.jpeg" alt="">
-                <img src="images/fall2021_5.jpeg" alt="">
-                <img src="images/fall2021_6.png" alt="">
-                <img src="images/fall2021_4.jpeg" alt="">
-                <img src="images/fall2021_7.png" alt="">
-                <img src="images/fall2021_8.png" alt="">
-            </div>
-            <div id="events-spring2022">
-                <img src="images/spring2022_1.jpeg" alt="">
-                <img src="images/spring2022_2.png" alt="">
-            </div>
-            <!-- <img src="images/poster5.jpg" alt=""> -->
-        </div>
-    </section>
-    <section class="footer-sct">
-        <div class="footer-container">
-            <!-- <h2>Reach Us @</h2> -->
-            <a href="https://www.instagram.com/hackad.nyuad/" target="__blank"><img src="images/instagram.png" alt="instagram logo"></a>
-            <a href="https://www.linkedin.com/company/hackad/" target="__blank"><img src="images/linkedin.png" alt="linkedin logo"></a>
-            <a href="https://hackad.slack.com/" target="__blank"><img src="images/slack.png" alt="slack logo"></a>
-            <a href="https://engage.nyuad.nyu.edu/organization/hackad" target="__blank"><img src="images/engage.png" alt="nyu abu dhabi engage platform logo"></a>
+    <head>
+        <title>hackAD</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
 
-        </div>
-    </section>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=VT323&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     
-</body>
-<script src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="NYUAD-logo">NYUAD</div>
+            <div id="menu">
+                <a href=".about">About</a>
+                <a href=".event">Event</a>
+                <a href=".contact">Contact Us</a>
+            </div>
+        </header>
+
+        <div id="landing-page">
+            <div class="content">
+                <div class="content-left">
+                    <img id="hackAD-logo-img" src="images/hackAD-logo.png">
+                </div>
+                <div class="content-right">
+                    <div id="outer-box">
+                        <p>Upcoming Events</p>
+                        <div id="inner-box">
+                            <p>April 4th - Company Visit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="archive-page">
+            <section class="past-event-sct" id="past-event-sct">
+                <h1 id="past-event-heading"></h1>
+                <div class="past-event-nav">
+                    <img src="images/left-arrow.png" id="left-arrow-btn" alt="">
+                    <div class="title-container">
+                        <h2 id="year-semester-heading">2018 Spring</h2>
+                    </div>
+                    <img src="images/right-arrow.png" id="right-arrow-btn" alt="">
+                </div>
+                
+                <div class="past-event-container" id="past-event-container">
+                    <div id="events-spring2018">
+                        <img src="images/spring2018_1.jpeg" alt="">
+                        <img src="images/spring2018_2.jpeg" alt="">
+                    </div>
+                    <div id="events-fall2018">
+                        <img src="images/fall2018_1.png" alt="">
+                        <img src="images/fall2018_2.png" alt="">
+                        <img src="images/fall2018_3.png" alt="">
+                        <img src="images/fall2018_4.jpeg" alt="">
+                        <img src="images/fall2018_5.jpeg" alt="">
+                    </div>
+                    <div id="events-spring2019">
+                        <img src="images/spring2019_1.jpeg" alt="">
+                        <img src="images/spring2019_2.jpeg" alt="">
+                        <img src="images/spring2019_3.jpeg" alt="">
+                        <img src="images/spring2019_4.jpeg" alt="">
+                    </div>
+                    <div id="events-fall2019">
+                        <img src="images/fall2019_1.jpeg" alt="">
+                        <img src="images/fall2019_2.jpeg" alt="">
+                    </div>
+                    <div id="events-spring2020">
+                        <img src="images/spring2020_1.jpg" alt="">
+                        <img src="images/spring2020_2.png" alt="">
+                    </div>
+                    <div id="events-fall2020">
+                        <img src="images/fall2020_1.jpg" alt="">
+                        <img src="images/fall2020_2.jpg" alt="">
+                        <img src="images/fall2020_3.png" alt="">
+                        <img src="images/fall2020_4.jpeg" alt="">
+                    </div>
+                    <div id="events-spring2021">
+                        <img src="images/spring2021_1.jpg" alt="">
+                        <img src="images/spring2021_2.jpg" alt="">
+                        <img src="images/spring2021_3.png" alt="">
+                        <img src="images/spring2021_4.jpeg" alt="">
+                        <img src="images/spring2021_5.jpeg" alt="">
+                        <img src="images/spring2021_6.jpeg" alt="">
+                    </div>
+                    <div id="events-fall2021">
+                        <img src="images/fall2021_1.png" alt="">
+                        <img src="images/fall2021_2.jpeg" alt="">
+                        <img src="images/fall2021_3.jpeg" alt="">
+                        <img src="images/fall2021_5.jpeg" alt="">
+                        <img src="images/fall2021_6.png" alt="">
+                        <img src="images/fall2021_4.jpeg" alt="">
+                        <img src="images/fall2021_7.png" alt="">
+                        <img src="images/fall2021_8.png" alt="">
+                    </div>
+                    <div id="events-spring2022">
+                        <img src="images/spring2022_1.jpeg" alt="">
+                        <img src="images/spring2022_2.png" alt="">
+                    </div>
+                    <!-- <img src="images/poster5.jpg" alt=""> -->
+                </div>
+            </section>
+        </div>
+
+        <!-- footer -->
+        <section class="footer-sct">
+            <div class="footer-container">
+                <!-- <h2>Reach Us @</h2> -->
+                <a href="https://www.instagram.com/hackad.nyuad/" target="__blank"><img src="images/instagram.png" alt="instagram logo"></a>
+                <a href="https://www.linkedin.com/company/hackad/" target="__blank"><img src="images/linkedin.png" alt="linkedin logo"></a>
+                <a href="https://hackad.slack.com/" target="__blank"><img src="images/slack.png" alt="slack logo"></a>
+                <a href="https://engage.nyuad.nyu.edu/organization/hackad" target="__blank"><img src="images/engage.png" alt="nyu abu dhabi engage platform logo"></a>
+            </div>
+        </section>
+    </body>
 </html>
