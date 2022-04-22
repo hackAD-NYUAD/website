@@ -42,12 +42,4 @@ window.addEventListener('load', () => {
     })
 
     typeWriter();
-
-
-    // document.getElementById('event-txt').addEventListener('click', () => {
-    //     typeWriter();
-
-    // })
-
-
 })
