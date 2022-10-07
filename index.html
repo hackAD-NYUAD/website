@@ -18,11 +18,12 @@
     </head>
     <body>
         <header>
-            <div id="NYUAD-logo">NYUAD</div>
+            <div id="NYUAD-logo"></div>
             <div id="menu">
                 <a href="#mission-sct">About</a>
-                <a href="#past-event-sct">Event</a>
-                <a href="#eboard-sct">Contact Us</a>
+                <a href="#past-event-sct">Events</a>
+                <a href="mailto:nyuad.hackad.sig@nyu.edu" target="_blank">Contact</a>
+                <a href="#">Join</a>
             </div>
         </header>
 
@@ -33,9 +34,16 @@
                 </div>
                 <div class="content-right">
                     <div id="outer-box">
-                        <p>Upcoming Events</p>
+                        <!-- STOPPED HERE:  Solve the issue with the upcoming events box -->
+                        <p class="upcoming-events">Upcoming Events</p>
                         <div id="inner-box">
-                            <p>April 4th - Company Visit</p>
+                            <div class="events-list">
+                                <p id="event1">April 4th - Company Visit</p>
+                                <p id="event2">TBA</p>
+                                <p id="event3">TBA</p>
+                               <!--  <span class="col-sm-12">April 5th - Company Visit</span>
+                                <span class="col-sm-12 ">April 5th - Company Visit<span class="col-sm-12">April 5th - Company Visit</span> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,13 +66,14 @@
                 <div class="past-event-nav">
                     <img src="images/left-arrow.png" id="left-arrow-btn" alt="">
                     <div class="title-container">
-                        <h2 id="year-semester-heading">2018 Spring</h2>
+                        <!-- <h2 id="year-semester-heading">Spring 2018</h2> -->
+                        <h2 id="year-semester-heading">Fall 2022</h2>
                     </div>
                     <img src="images/right-arrow.png" id="right-arrow-btn" alt="">
                 </div>
                 
                 <div class="past-event-container" id="past-event-container">
-                    <div id="events-spring2018">
+                    <!-- <div id="events-spring2018">
                         <img src="images/spring2018_1.jpeg" alt="">
                         <img src="images/spring2018_2.jpeg" alt="">
                     </div>
@@ -117,26 +126,104 @@
                         <img src="images/spring2022_1.jpeg" alt="">
                         <img src="images/spring2022_2.png" alt="">
                     </div>
+                    <div id="events-fall2022">
+                        <img src="images/fall2022_1.png" alt="">
+                        <img src="images/fall2022_2.jpeg" alt="">
+                    </div> -->
+
+                    <div id="events-fall2022">
+                        <img src="images/fall2022_1.png" alt="">
+                        <img src="images/fall2022_2.jpeg" alt="">
+                    </div>
+                    <div id="events-spring2022">
+                        <img src="images/spring2022_1.jpeg" alt="">
+                        <img src="images/spring2022_2.png" alt="">
+                    </div>
+                    <div id="events-fall2021">
+                        <img src="images/fall2021_1.png" alt="">
+                        <img src="images/fall2021_2.jpeg" alt="">
+                        <img src="images/fall2021_3.jpeg" alt="">
+                        <img src="images/fall2021_5.jpeg" alt="">
+                        <img src="images/fall2021_6.png" alt="">
+                        <img src="images/fall2021_4.jpeg" alt="">
+                        <img src="images/fall2021_7.png" alt="">
+                        <img src="images/fall2021_8.png" alt="">
+                    </div>
+                    <div id="events-spring2021">
+                        <img src="images/spring2021_1.jpg" alt="">
+                        <img src="images/spring2021_2.jpg" alt="">
+                        <img src="images/spring2021_3.png" alt="">
+                        <img src="images/spring2021_4.jpeg" alt="">
+                        <img src="images/spring2021_5.jpeg" alt="">
+                        <img src="images/spring2021_6.jpeg" alt="">
+                    </div>
+                    <div id="events-fall2020">
+                        <img src="images/fall2020_1.jpg" alt="">
+                        <img src="images/fall2020_2.jpg" alt="">
+                        <img src="images/fall2020_3.png" alt="">
+                        <img src="images/fall2020_4.jpeg" alt="">
+                    </div>
+                     <div id="events-spring2020">
+                        <img src="images/spring2020_1.jpg" alt="">
+                        <img src="images/spring2020_2.png" alt="">
+                    </div>
+                    <div id="events-fall2019">
+                        <img src="images/fall2019_1.jpeg" alt="">
+                        <img src="images/fall2019_2.jpeg" alt="">
+                    </div>
+                    <div id="events-spring2019">
+                        <img src="images/spring2019_1.jpeg" alt="">
+                        <img src="images/spring2019_2.jpeg" alt="">
+                        <img src="images/spring2019_3.jpeg" alt="">
+                        <img src="images/spring2019_4.jpeg" alt="">
+                    </div>
+                    <div id="events-fall2018">
+                        <img src="images/fall2018_1.png" alt="">
+                        <img src="images/fall2018_2.png" alt="">
+                        <img src="images/fall2018_3.png" alt="">
+                        <img src="images/fall2018_4.jpeg" alt="">
+                        <img src="images/fall2018_5.jpeg" alt="">
+                    </div>
+                    <div id="events-spring2018">
+                        <img src="images/spring2018_1.jpeg" alt="">
+                        <img src="images/spring2018_2.jpeg" alt="">
+                    </div>
+
+
                 </div>
             </section>
             <section class="eboard-sct" id="eboard-sct">
                 <h1>Executive Board</h1>
                 <div id="member-info">
-                    <div id="member1"></div>
-                    <div id="member2"></div>
-                    <div id="member3"></div>
-                    <div id="member4"></div>                
-                    <div id="member5"></div>
+                    <div id="member1">
+                        <img src="images/gautham.png" alt="Gautham's photo">
+                        <span>President</span>
+                    </div>
+                    <div id="member2">
+                        <img src="images/druce.jpg" alt="Druce's photo">
+                        <span>Treasurer</span>
+                    </div>
+                    <div id="member3">
+                        <img src="images/swostik.jpg" alt="Swostik's photo">
+                        <span>Events Manager</span>
+                    </div>
+                    <div id="member4">
+                        <img src="images/symbat.jpg" alt="Symbat's photo">
+                        <span>Web Team Lead</span>
+                    </div>                
+                    <div id="member5">
+                        <img src="images/hasibul.jpg" alt="Hasibul's photo">
+                        <span>Social Media Manager</span>
+                    </div>
                     <div id="member6"></div>
                     <div id="member7"></div>
-                    <div id="member8"></div>
                 </div>
             </section>
         </div>
 
 
-        <!-- footer -->
-        <!-- just a test comment -->
+        <!-- footer
+        <-- just a test comment -->
         <section class="footer-sct">
             <div class="footer-container">
                 <a href="https://www.instagram.com/hackad.nyuad/" target="__blank"><img src="images/instagram-logo.png" alt="instagram logo"></a>
